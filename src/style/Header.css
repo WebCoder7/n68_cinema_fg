@@ -1,0 +1,31 @@
+.header-container {
+    padding: 0 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    align-items: center;
+  }
+  
+  .header-buttons {
+    display: flex;
+  }
+  
+  .header-right-section {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .language-select {
+    padding: 15px;
+    background-color: rgba(29, 29, 29, 0.5);
+    border-radius: 12px;
+    outline: none;
+  }
+  
+  .login-button {
+    background-color: #C61F1F;
+    padding: 18px 67px;
+    border-radius: 12px;
+    color: white;
+  }
+  

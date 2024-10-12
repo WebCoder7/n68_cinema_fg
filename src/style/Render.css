@@ -1,0 +1,60 @@
+.container {
+  margin-top: 50px;
+}
+
+.section-title {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.movies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 44px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.movie-card:hover {
+  background-color: #1a1a1a;
+}
+
+.movie-image {
+  width: 280px;
+  height: 400px;
+  background-color: #1d1d1d;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.movie-title {
+  font-weight: 500;
+  width: 188px;
+  font-size: 24px;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+.movie-genre {
+  color: #4d4d4d;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.movie-card:hover .movie-genre {
+  color: white;
+}

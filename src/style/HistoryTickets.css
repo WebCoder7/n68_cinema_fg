@@ -1,0 +1,6 @@
+.history-tickets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px; 
+  }
+  

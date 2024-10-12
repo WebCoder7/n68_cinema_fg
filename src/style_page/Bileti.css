@@ -1,0 +1,31 @@
+.bileti-container {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+  
+  .tab-buttons {
+    display: flex;
+    margin-bottom: 3.5rem;
+  }
+  
+  .tab-button {
+    width: 188px;
+    border-radius: 12px;
+    padding: 1rem 0;
+    background-color: #111111;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .tab-button.active {
+    background-color: #1d1d1d;
+    color: #c61f1f;
+  }
+  
+  .tab-button:not(.active):hover {
+    background-color: #1d1d1d;
+  }
+  

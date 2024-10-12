@@ -1,0 +1,42 @@
+.bileti-container {
+    padding: 0 50px;
+  }
+  
+  .bileti-months {
+    display: flex;
+    gap: 44px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+  
+  .month {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .month-title {
+    margin-bottom: 12px;
+  }
+  
+  .bilet-cards {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .cinema-title {
+    font-size: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .tickets-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 48px;
+  }
+  
+  .divider {
+    border: 1px solid #4a4a4a;
+    margin-bottom: 48px;
+  }
+      

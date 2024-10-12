@@ -1,0 +1,56 @@
+.ticket-container {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+  }
+  
+  .ticket-header {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 12px;
+    background-color: #111111;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .hall-number {
+    color: #444444;
+    font-size: 14px;
+  }
+  
+  .ticket-time-vip {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .time {
+    font-size: 16px;
+  }
+  
+  .vip-section {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .vip-text {
+    font-size: 16px;
+  }
+  
+  .ticket-footer {
+    background-color: #2D2D2D;
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+  
+  .appearance {
+    font-size: 14px;
+  }
+  
+  .price {
+    font-size: 14px;
+  }
+  

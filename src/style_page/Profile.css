@@ -1,0 +1,49 @@
+.profile-container {
+    max-width: 380px;
+    width: 100%;
+    margin: auto;
+  }
+  
+  .profile-header {
+    background-color: #111111;
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+  }
+  
+  .profile-details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .profile-item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .profile-label {
+    color: #4d4d4d;
+  }
+  
+  .profile-data {
+    background-color: #111111;
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
+  }
+  
+  .logout-button {
+    background-color: #111111;
+    padding: 1.5rem 1rem;
+    border-radius: 12px;
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+    width: 100%;
+  }
+  

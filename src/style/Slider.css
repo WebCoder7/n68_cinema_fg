@@ -1,0 +1,26 @@
+.slider-image {
+    max-height: 640px;
+    height: 100%;
+    max-width: 1360px;
+    width: 100%;
+  }
+  
+  .slider-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+  }
+  
+  .slider-button {
+    color: #C61F1F;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  

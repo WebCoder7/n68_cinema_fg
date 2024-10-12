@@ -1,0 +1,35 @@
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .search-form {
+    margin-top: 3rem;
+    position: relative;
+    max-width: 380px;
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  
+  .search-button {
+    position: absolute;
+    cursor: pointer;
+    left: 1.25rem; 
+  }
+  
+  .search-input {
+    max-width: 380px;
+    width: 100%;
+    background-color: #111111;
+    padding: 1.25rem; 
+    color: #c3c3c3;
+    outline: none;
+    padding-left: 3.5rem; 
+    border-radius: 1rem; 
+  }
+  
+  p {
+    margin-top: 1rem;
+  }
+  

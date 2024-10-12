@@ -1,0 +1,42 @@
+.sms-container {
+    max-width: 380px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    gap: 20px;
+  }
+  
+  .sms-title {
+    text-align: center;
+    font-size: 32px;
+  }
+  
+  .sms-description {
+    max-width: 330px;
+    width: 100%;
+    text-align: center;
+    color: #777777;
+  }
+  
+  .sms-highlight {
+    color: #C61F1F;
+  }
+  
+  .otp-input {
+    width: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    background: #111111;
+    margin: 5px;
+    text-align: center;
+    outline: none;
+  }
+  
+  .sms-timer {
+    text-align: center;
+    color: #777777;
+  }
+  

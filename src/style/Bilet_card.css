@@ -1,0 +1,11 @@
+.bilet-card {
+    padding: 12px 0;
+    width: 64px;
+    background-color: #111111;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    align-items: center;
+    color: white;
+  }
+  

@@ -1,0 +1,23 @@
+.cinema-data-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .cinema-title {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  
+  .cinema-details {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    color: #A1A1A1;
+    font-size: 16px;
+  }
+  
